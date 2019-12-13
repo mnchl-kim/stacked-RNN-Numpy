@@ -1,0 +1,61 @@
+# Install these requirements:
+#     $ pip install --upgrade -r requirements.txt
+
+
+## Core scientific packages
+numpy==1.17.4
+matplotlib==3.1.1
+
+
+
+
+
+
+
+##############################
+##### My working envrionment #####
+
+# Operating System : Windows 10
+# conda	4.7.12
+# Python	3.6.9
+
+## Packages
+
+# Name		Version
+# blas		1.0
+# ca-certificates	2019.11.27
+# certifi		2019.11.28
+# cycler		0.10.0
+# freetype	2.9.1
+# icc_rt		2019.0.0
+# icu		58.2
+# intel-openmp	2019.4
+# jpeg		9b
+# kiwisolver	1.1.0
+# libpng		1.6.37
+# matplotlib	3.1.1
+# mkl		2019.4
+# mkl-service	2.3.0
+# mkl_fft		1.0.15
+# mkl_random	1.1.0
+# numpy		1.17.4
+# numpy-base	1.17.4
+# openssl	1.1.1d
+# pip		19.3.1
+# pyparsing	2.4.5
+# pyqt	`	5.9.2
+# python		3.6.9
+# python-dateutil	2.8.1
+# pytz		2019.3
+# qt		5.9.7
+# setuptools	42.0.2
+# sip		4.19.8
+# six		1.13.0
+# sqlite		3.30.1
+# tornado	6.0.3
+# vc		14.1
+# vs2015_runtime	14.16.27012
+# wheel		0.33.6
+# wincertstore	0.2
+# zlib		1.2.11
+

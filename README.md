@@ -1,7 +1,8 @@
 # Sequence Generation with stacked RNN (ONLY Numpy)
 
-I implemented class module for stacked Recurrent Nueral Networks with ONLY Numpy pakage.
+I implemented class module for stacked Recurrent Nueral Networks with ONLY Numpy pakage.  
 It is for sequence generation similar with sequence to sequence model.
+
 
 The following parameters can be selected in the RNN class.
  - input size
@@ -13,9 +14,10 @@ The following parameters can be selected in the RNN class.
  - dropout rate
  - learning rate
 
-Additional information for RNN class,
-Weight initialization : Xavier initialization
-Weight update optimizer : Adagrad, RMSProp
+
+Additional information for RNN class,  
+Weight initialization : Xavier initialization  
+Weight update optimizer : Adagrad, RMSProp  
 
 
 To test the stacked RNN model, I used text data in online.

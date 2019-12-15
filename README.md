@@ -1,4 +1,5 @@
-# Sequence Generation with Deep Learning. RNN with ONLY Numpy
+# Sequence Generation with Deep Learning.
+## RNN with ONLY Numpy
 
 Implement 
 
@@ -17,7 +18,6 @@ $ pip install --upgrade -r requirments.txt
 1. Install required packages individually
 numpy == 1.17.4
 matplotlib == 3.1.1
-
 
 
 

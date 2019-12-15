@@ -18,6 +18,7 @@ The following parameters can be selected in the RNN class.
 Additional information for RNN class,
  - Weight initialization : Xavier initialization  
  - Weight update optimizer : Adagrad, RMSProp  
+ - Dropout  
 
 <br>
 

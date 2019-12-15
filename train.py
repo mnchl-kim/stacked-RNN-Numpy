@@ -74,7 +74,7 @@ if __name__ == "__main__":
     ##########
     data = 'The Little Prince'
     num_iteration = 3000
-    optimizer = 'Adagrad'
+    optimizer = 'adagrad'
     ##########
 
     infile = data + '.txt'

@@ -14,9 +14,13 @@ def test(model, ch2ix, ix2ch):
 if __name__ == "__main__":
     ##########
     data = 'The Little Prince'
+    num_iteration = 3000
+    optimizer = 'adagrad'
     ##########
 
-    file = open('./result/' + data + '.pickle', 'rb')
+    outfile = data + '_' + str(num_iteration) + '_' + optimizer
+
+    file = open('./result/' + outfile + '.pickle', 'rb')
     result = pickle.load(file)
     ch2ix = pickle.load(file)
     ix2ch = pickle.load(file)

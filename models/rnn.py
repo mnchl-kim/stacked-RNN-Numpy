@@ -26,9 +26,8 @@ def rnn_cell_forward(xt, a_prev, parameters):
     # Retrieve parameters from "parameters"
     Wax = parameters["Wax"]
     Waa = parameters["Waa"]
-    ba = parameters["ba"]
-
     Wya = parameters["Wya"]
+    ba = parameters["ba"]
     by = parameters["by"]
 
     # compute next activation state using the formula given above

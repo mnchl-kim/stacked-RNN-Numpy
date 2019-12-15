@@ -3,7 +3,7 @@
 
 1. requirements.txt
 Select one of install methods below
-If *.py file doesn't run after install required packages, check 'My working environment' in requirements.txt
+If '\*.py' file doesn't run after install required packages, check 'My working environment' in requirements.txt
 
 1-1. Install all required packages with only one command line
 $ pip install --upgrade -r requirments.txt

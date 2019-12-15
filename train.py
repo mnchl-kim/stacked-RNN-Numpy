@@ -72,8 +72,8 @@ def model(data='input.txt', hidden_size=256, seq_length=100, depth_size=3, batch
 
 if __name__ == "__main__":
     # ##########
-    # data = 'dinosaur'
-    # num_iteration = 1000
+    # data = 'The Little Prince'
+    # num_iteration = 3000
     # optimizer = 'Adagrad'
     # ##########
     #
@@ -90,44 +90,12 @@ if __name__ == "__main__":
 
 
     ###########################
-    ### optimizer : Adagrad ###
-    optimizer = 'adagrad'
+    ### optimizer : RMSProp ###
+    optimizer = 'RMSProp'
 
     ## The Little Prince
     data = 'The Little Prince'
-    num_iteration = 3000
-
-    infile = data + '.txt'
-    outfile = data + '_' + str(num_iteration) + '_' + optimizer
-
-    result, ch2ix, ix2ch = model(data=infile, num_iteration=num_iteration, img_name=outfile)
-
-    file = open('./result/' + outfile + '.pickle', 'wb')
-    pickle.dump(result, file)
-    pickle.dump(ch2ix, file)
-    pickle.dump(ix2ch, file)
-    file.close()
-
-
-    ## shakespeare_play
-    data = 'shakespeare_play'
-    num_iteration = 150
-
-    infile = data + '.txt'
-    outfile = data + '_' + str(num_iteration) + '_' + optimizer
-
-    result, ch2ix, ix2ch = model(data=infile, num_iteration=num_iteration, img_name=outfile)
-
-    file = open('./result/' + outfile + '.pickle', 'wb')
-    pickle.dump(result, file)
-    pickle.dump(ch2ix, file)
-    pickle.dump(ix2ch, file)
-    file.close()
-
-
-    ## shakespeare
-    data = 'shakespeare'
-    num_iteration = 3000
+    num_iteration = 2000
 
     infile = data + '.txt'
     outfile = data + '_' + str(num_iteration) + '_' + optimizer

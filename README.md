@@ -1,5 +1,4 @@
-# Sequence Generation with Deep Learning.
-## RNN with ONLY Numpy
+# Sequence Generation with stacked RNN (ONLY Numpy)
 
 Implement 
 

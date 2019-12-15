@@ -13,7 +13,7 @@ def test(model, ch2ix, ix2ch):
 
 if __name__ == "__main__":
     ##########
-    data = 'dinosaur'
+    data = 'The Little Prince'
     ##########
 
     file = open('./result/' + data + '.pickle', 'rb')

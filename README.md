@@ -51,8 +51,13 @@ matplotlib == 3.1.1
 * `test.py` : Test file for live demo
 
 If you want to check the training process, run `train.py`  
-If you want to check the final result, run `test.py`. <br>  
-You can find out a lot of results stored by RNN object in result directory.
+If you want to check the final result, run `test.py`. <br>
+  
+* `data` : Text data that I used for training the RNN model
+* `figure` : Loss, Iteration graph
+* `models` : Pre-implemented short codes for RNN, LSTM
+* `ppt` : Presentation file with details for this project
+* `result` : Results file stored by RNN object format(.pickle)
 
 <br>
 

@@ -94,13 +94,13 @@ class RNN:
         for w, g, m in zip(parameters, gradients, momentums):
             np.clip(w, -1, 1, out=w)
 
-            # Adagrad
-            m += g ** 2
-            w -= learning_rate * g / np.sqrt(m + 1e-8)
-
-            # # RMSProp
-            # m = 0.9 * m + 0.1 * g ** 2
+            # # Adagrad
+            # m += g ** 2
             # w -= learning_rate * g / np.sqrt(m + 1e-8)
+
+            # RMSProp
+            m = 0.9 * m + 0.1 * g ** 2
+            w -= learning_rate * g / np.sqrt(m + 1e-8)
 
     def sample(self, ix, n):
         ixes = [ix]

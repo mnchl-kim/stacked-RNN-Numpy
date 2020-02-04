@@ -1,7 +1,6 @@
-# Sequence Generation with stacked RNN (ONLY Numpy)
+# Character-level Language Model with stacked RNN (ONLY Numpy)
 
 I implemented class module for stacked Recurrent Neural Networks with ONLY Numpy package.  
-It is for sequence generation similar with sequence to sequence model.  
 
 The following parameters can be selected in the RNN class.
  - input size
@@ -22,7 +21,8 @@ Additional information for RNN class,
 
 <br>
 
-To test the stacked RNN model, I used text data in online. It is character-level language generation.  
+To test the stacked RNN model, I used text data in online.  
+It is for sequence generation similar with character-level language model.  
 You can find out the text data used for training in data directory.
 
 <br>
@@ -30,9 +30,7 @@ You can find out the text data used for training in data directory.
 ### Install environments
 See `requirements.txt`
 
-Select one of install methods below <br>
-If `*.py` file doesn't run after installing required packages, check 'My working environment' in `requirements.txt`
-
+Select one of install methods below  
 
 * Install all required packages with only one command line  
 $ pip install --upgrade -r requirements.txt
@@ -40,6 +38,8 @@ $ pip install --upgrade -r requirements.txt
 * Install required packages individually  
 numpy == 1.17.4  
 matplotlib == 3.1.1
+
+If `*.py` file doesn't run after installing required packages, check 'My working environment' in `requirements.txt`
 
 <br>
 

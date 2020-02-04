@@ -1,4 +1,4 @@
-# Character-level Language Model with stacked RNN (ONLY Numpy)
+## Character-level Language Model with stacked RNN (ONLY Numpy)
 
 I implemented class module for stacked Recurrent Neural Networks with ONLY Numpy package.  
 
